@@ -18,10 +18,12 @@ Atuo em um produto SaaS de landing pages com mais de 2 milhões de páginas publ
 
 ## Projetos
 
-**[chat-ia](https://github.com/Gondaline/chat-ia)** · [demo](https://planilha-chat-ia.pages.dev)
+### [chat-ia](https://github.com/Gondaline/chat-ia) · [demo](https://planilha-chat-ia.pages.dev)
+
 Chat com IA para análise de planilhas, em Next.js e TypeScript sobre Cloudflare Pages Functions. A requisição dispara em paralelo para vários provedores de IA e a primeira resposta válida vence, o que corta latência e mantém a aplicação de pé quando um provedor degrada.
 
-**[biblioteca-online](https://github.com/Gondaline/biblioteca-online)**
+### [biblioteca-online](https://github.com/Gondaline/biblioteca-online)
+
 API REST de gerenciamento de livraria com Node.js, Express e MongoDB.
 
 ## Contato
