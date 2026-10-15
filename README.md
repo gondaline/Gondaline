@@ -21,8 +21,6 @@ Atuo em um produto SaaS de landing pages com mais de 2 milhões de páginas publ
 
 No dia a dia uso Claude Code e ChatGPT, inclusive conectados ao banco e aos logs via MCP, para acelerar investigação e análise de código, sempre com revisão e testes antes de ir para produção.
 
-**Estudando:** Java, Spring Boot e Python.
-
 ## Projetos
 
 ### [chat-ia](https://github.com/Gondaline/chat-ia) · [demo](https://planilha-chat-ia.pages.dev)
