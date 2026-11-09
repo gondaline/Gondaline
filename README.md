@@ -23,13 +23,23 @@ No dia a dia uso Claude Code e ChatGPT, inclusive conectados ao banco e aos logs
 
 ## Projetos
 
-### [chat-ia](https://github.com/Gondaline/chat-ia) · [demo](https://planilha-chat-ia.pages.dev)
+### [EventRelay](https://github.com/Gondaline/event-relay)
+
+API de entrega de webhooks em Node.js, Express e PostgreSQL. Cada tentativa de entrega fica registrada no banco. Quando a falha é temporária, a entrega vai para uma fila no Cloudflare Queues e um Worker agenda novas tentativas com backoff progressivo; falhas definitivas, como um `404`, não são reenviadas. Tem autenticação por token e proteção contra SSRF.
+
+### [Planilha IA](https://github.com/Gondaline/chat-ia) · [demo](https://planilha-chat-ia.pages.dev)
 
 Chat com IA para análise de planilhas, em Next.js e TypeScript sobre Cloudflare Pages Functions. A requisição dispara em paralelo para vários provedores de IA e a primeira resposta válida vence, o que corta latência e mantém a aplicação de pé quando um provedor degrada.
 
-### [biblioteca-online](https://github.com/Gondaline/biblioteca-online)
+### [Biblioteca Online](https://github.com/Gondaline/biblioteca-online)
 
-API REST de gerenciamento de livraria com Node.js, Express e MongoDB.
+API REST de livros, autores e editoras com Node.js, Express e MongoDB. Organizada em rotas, controllers, models e middlewares, com busca por filtros, paginação, ordenação, validação de dados e tratamento de erros centralizado.
+
+## Laboratórios de estudo
+
+### [CloudLab](https://github.com/Gondaline/aws-ec2-apache-lab) · [prévia](https://gondaline.github.io/aws-ec2-apache-lab/)
+
+Página estática publicada em uma instância AWS EC2 com Apache. HTTP liberado ao público e SSH restrito ao IP do administrador por Security Group, com o passo a passo e as evidências de cada etapa documentados no README.
 
 ## Contato
 
